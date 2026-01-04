@@ -6,7 +6,8 @@ Extract shutter count from your Canon R7 camera over USB.
 
 ```bash
 # Get shutter count
-uv run shutr7 count
+$ uv run shutr7 count
+
 Camera: Canon.Inc Canon EOS R7
 Firmware: 3-1.6.0
 
@@ -17,8 +18,12 @@ Life Expectancy: 200,000
 Remaining: ~194,000 (97.0%)
 Usage: [#---------------------------------------] 3.0%
 
+```
+
+```bash
 # JSON output
-uv run shutr7 count --json
+$ uv run shutr7 count --json
+
 {
   "camera": {
     "manufacturer": "Canon.Inc",
